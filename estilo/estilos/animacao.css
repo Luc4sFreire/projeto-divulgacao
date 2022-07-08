@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@keyframes aparecer-separar{
+    from{
+        letter-spacing: -.5em;
+        opacity: 0;
+    }
+
+    40%{
+        opacity: .6;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
