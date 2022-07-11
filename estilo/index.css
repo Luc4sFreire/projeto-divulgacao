@@ -188,7 +188,7 @@ div > img{
     flex-direction: column;
     align-items: center;
     align-content: center;
-    justify-content: center;
+    gap: 10px;
     background-image: linear-gradient(134.39deg, var(--cor2) 42.49%, var(--cor4) 95.9%);
     border-radius: 15px;
     border: none;
@@ -198,7 +198,15 @@ div > img{
 }
 
 .card > img{
-    height: 50%;
+    width: 256px;
+    height: 143px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#cordel{
+    height: 156px;
+    margin-top: -12px;
 }
 
 .card h3{
