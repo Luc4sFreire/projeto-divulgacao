@@ -62,6 +62,7 @@ nav a{
 nav a:hover{
     color: var(--cor4);
     transition: color .3s;
+    cursor: pointer;
 }
 
 nav button{
