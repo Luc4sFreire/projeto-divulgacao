@@ -60,6 +60,7 @@ nav a:hover{
     cursor: pointer;
     color: var(--cor4);
     transition: color .3s;
+    cursor: pointer;
 }
 
 nav button{
@@ -246,7 +247,14 @@ div > img{width: 7.5625em;}
     background-image: linear-gradient(134.89deg, var(--cor2) 42.49%, var(--cor4) 95.9%);
     border-radius: .9375em;
     border: none;
+<<<<<<< HEAD
     box-shadow: .3175em .3175em .25em rgba(0,0,0,0.25);
     width: 21.875em;
     height: 21.875em;
 }
+=======
+    box-shadow: 5px 5px 4px rgba(0,0,0,0.25);
+    width: 256px;
+    height: 256px;
+}
+>>>>>>> 8133615cea86977784fe41d80eca65a6d6496694
