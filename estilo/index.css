@@ -39,13 +39,10 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 50px;
+    padding: 1.875em 3.125em;
 }
 
-header span:hover{
-    cursor: pointer;
-}
-
+header span:hover{cursor: pointer;}
 nav{
     display: flex;
     align-items: center;
@@ -55,32 +52,33 @@ nav{
 
 nav a{
     color: var(--cor3);
-    font: 500 16px var(--font-padrão);
-    letter-spacing: 2px;
+    font: 500 1rem var(--font-padrão);
+    letter-spacing: .125em;
 }
 
 nav a:hover{
+    cursor: pointer;
     color: var(--cor4);
     transition: color .3s;
 }
 
 nav button{
-    width: 125px;
-    padding: 10px 0px;
+    width: 7.8125em;
+    padding: .625em 0em;
     background-color: var(--cor0);
     color: var(--cor3);
-    box-shadow: 0px 4px 4px #00000040;
-    border-radius: 5px;
-    border: 2px solid var(--cor3);
-    font: 500 16px var(--font-padrão);
-    letter-spacing: 2px;
+    box-shadow: 0em .25em .25em #00000040;
+    border-radius: .3125em;
+    border: .125em solid var(--cor3);
+    font: 500 1rem var(--font-padrão);
+    letter-spacing: .125em;
 }
 
 nav button:hover{
     background-color: var(--cor4);
     color: white;
-    border: 2px solid var(--cor4);
-    border-radius: 5px;
+    border: .125em solid var(--cor4);
+    border-radius: .3125em;
     cursor: pointer;
     transition: color .3s, border .3s, background-color .3s;
 }
@@ -93,7 +91,7 @@ nav button:hover{
     margin: auto;
     width: 80%;
     height: 85vh;
-    padding-bottom: 30px;
+    padding-bottom: 1.875em;
 }
 
 #inicio > div{
@@ -103,22 +101,25 @@ nav button:hover{
     width: 40%;
 }
 
-div > img{
-    width: 121px;
+div > img{width: 7.5625em;}
+#inicio-texto{
+    display: flex;
+    flex-direction: column;
+    gap: .625em;
 }
 
 #inicio-texto h1{
-    font: 500 30px var(--font-padrão);
+    font: 500 1.25rem var(--font-padrão);
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: .3125em;
     animation: aparecer-separar 1s linear .8s none;
 } 
 
 #inicio-texto p{
-    font: 500 20px var(--font-padrão);
+    font: 500 1rem var(--font-padrão);
     text-align: center;
-    letter-spacing: 2px;
-    padding-top: 6px;
+    letter-spacing: .125em;
+    padding-top: .375em;
     animation: aparecer-separar 1s linear .8s none;
 }
 
@@ -130,7 +131,7 @@ div > img{
     margin: 0 auto;
     gap: 20vw;
     width: 80vw;
-    padding-top: 20px;
+    padding-top: 1.25em;
 }
 
 #sobre > img{
@@ -144,43 +145,53 @@ div > img{
     align-items: center;
     justify-content: center;
     align-content: center;
-    gap: 20px;
+    gap: 1.25em;
 }
 
 #sobre h2{
-    font: 400 30px var(--font-padrão);
+    font: 500 1.5rem var(--font-padrão);
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: .3125em;
 }
 
 #sobre p{
-    font: 500 16px var(--font-padrão);
+    font: 1rem var(--font-padrão);
     text-align: justify;
-    letter-spacing: 2px;
+    letter-spacing: .125em;
+    line-height: 2em;
 }
 
 #project{
-    padding-top: 200px;
+    padding-top: 12.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
     justify-content: center;
-    gap: 43px;
-    padding-bottom: 50px;
+    gap: 2.6875em;
+    padding-bottom: 3.125em;
 }
 
 #project h2{
-    font: 400 30px var(--font-padrão);
+    font: 400 1.875rem var(--font-padrão);
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: .3125em;
 }
 
 #project > div{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    width: 90vw;
+    width: 80%;
+    gap: 3.125em;
+}
+
+#sec1, #sec2, #sec3, #sec4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
 }
 
 .card{
@@ -188,52 +199,54 @@ div > img{
     flex-direction: column;
     align-items: center;
     align-content: center;
-    gap: 10px;
+    gap: 1.5em;
     background-image: linear-gradient(134.39deg, var(--cor2) 42.49%, var(--cor4) 95.9%);
-    border-radius: 15px;
+    border-radius: .9375em;
     border: none;
-    box-shadow: 5px 5px 4px rgba(0,0,0,0.25);
-    width: 256px;
-    height: 256px;
+    box-shadow: .3125em .3125em .25em rgba(0,0,0,0.25);
+    width: 21.875em;
+    height: 21.875em;
 }
 
 .card > img{
-    width: 256px;
-    height: 143px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: .9375em;
+    border-top-right-radius: .9375em;
 }
 
 #cordel{
-    height: 156px;
-    margin-top: -12px;
+    height: 58%;
+    margin-top: -1.8em;
 }
 
 .card h3{
-    font: 600 14px var(--font-alternativa);
+    font: 600 1rem var(--font-alternativa);
     text-align: center;
-    letter-spacing: 1px;
+    letter-spacing: .0625em;
 }
 
 .card p{
-    font: 600 12px var(--font-alternativa);
+    font: 600 .8rem var(--font-alternativa);
     text-align: justify;
-    letter-spacing: 1px;
+    letter-spacing: .3125em;
     width: 80%;
 }
+
+.card:hover, .cardb:hover{cursor: pointer;}
 
 .cardb{
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: center;
-    font: 300 16px var(--font-padrão);
+    font: 300 1rem var(--font-padrão);
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: .3175em;
     background-image: linear-gradient(134.89deg, var(--cor2) 42.49%, var(--cor4) 95.9%);
-    border-radius: 15px;
+    border-radius: .9375em;
     border: none;
-    box-shadow: 5px 5px 4px rgba(0,0,0,0.25);
-    width: 256px;
-    height: 256px;
+    box-shadow: .3175em .3175em .25em rgba(0,0,0,0.25);
+    width: 21.875em;
+    height: 21.875em;
 }

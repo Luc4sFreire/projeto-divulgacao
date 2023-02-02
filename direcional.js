@@ -1,12 +1,7 @@
-const inicio = document.querySelector('#ainicio')
-const sobre = document.querySelector('#asobre')
-const projeto = document.querySelector('#aprojeto')
-const tec = document.querySelector('#atec')
-const btn = document.querySelector('#btn')
+let btn = document.querySelector('#btn')
+btn.addEventListener('click', ir)
 
-inicio.addEventListener('clicar(), click')
-
-function clicar(){
-    const boxini = document.querySelector('#inicio')
-    boxini = 
+function ir(){
+    let contato = documment.querySelector('#cont')
+    contato.link('contato.html')
 }
