@@ -29,6 +29,8 @@
     text-decoration: none;
 }
 
+html{scroll-behavior: smooth;}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--cor0);
@@ -246,6 +248,12 @@ div > img{width: 7.5625em;}
     height: 50%;
     margin-top: -.0625em;
     background-color: #fff;
+}
+
+#login img{
+    width: 50%;
+    height: 50%;
+    margin-top: -.0625em;
 }
 
 .card:hover, .cardb:hover{
